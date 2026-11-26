@@ -1,0 +1,17 @@
+category,product,units_sold,avg_inventory_days,sales,profit
+Clothing,Jacket,184,53.02439024390244,13365.3,5637.3
+Clothing,Jeans,117,57.57142857142857,5140.8,1981.8
+Clothing,Sneakers,175,53.7027027027027,13438.5,4338.5
+Clothing,T-Shirt,155,59.714285714285715,3097.6,1547.6
+Electronics,Headphones,160,43.111111111111114,8239.0,3759.0
+Electronics,Laptop,174,41.10526315789474,98766.0,15246.0
+Electronics,Monitor,119,42.354838709677416,19395.0,3925.0
+Electronics,Smartphone,229,42.81818181818182,84583.0,11303.0
+Furniture,Bookshelf,153,50.6,16602.0,3444.0
+Furniture,Desk,162,48.794117647058826,33683.5,6143.5
+Furniture,Office Chair,134,54.9,17958.25,4558.25
+Furniture,Table Lamp,205,54.75,7066.1,2556.1
+Home & Kitchen,Blender,135,54.333333333333336,7962.5,2697.5
+Home & Kitchen,Coffee Maker,218,54.857142857142854,17833.2,6061.2
+Home & Kitchen,Cookware Set,179,51.2,15974.25,5592.25
+Home & Kitchen,Storage Box,172,55.30232558139535,2849.4,1473.4

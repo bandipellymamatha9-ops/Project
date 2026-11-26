@@ -1,0 +1,601 @@
+order_id,order_date,region,category,product,units_sold,unit_price,discount_rate,sales,cost,profit,inventory_days,season
+ORD0001,2025-11-24,South,Electronics,Laptop,5,620,0.0,3100.0,2400,700.0,50.0,Autumn
+ORD0002,2025-03-13,North,Electronics,Laptop,7,620,0.0,4340.0,3360,980.0,39.0,Spring
+ORD0003,2025-02-17,South,Furniture,Desk,1,230,0.15,195.5,170,25.5,66.0,Winter
+ORD0004,2025-11-29,East,Home & Kitchen,Cookware Set,8,95,0.15,646.0,464,182.0,82.0,Autumn
+ORD0005,2025-01-04,South,Furniture,Table Lamp,6,38,0.05,216.6,132,84.6,50.0,Winter
+ORD0006,2025-04-21,North,Clothing,Jacket,2,78,0.1,140.4,84,56.4,50.0,Spring
+ORD0007,2025-07-03,West,Clothing,Jeans,1,48,0.2,38.4,27,11.4,83.0,Summer
+ORD0008,2025-10-02,East,Electronics,Monitor,2,180,0.15,306.0,260,46.0,55.0,Autumn
+ORD0009,2025-11-18,South,Clothing,T-Shirt,2,22,0.0,44.0,20,24.0,46.0,Autumn
+ORD0010,2025-05-29,East,Electronics,Headphones,2,55,0.1,99.0,56,43.0,51.0,Spring
+ORD0011,2025-08-21,South,Clothing,T-Shirt,6,22,0.05,125.4,60,65.4,46.0,Summer
+ORD0012,2025-12-10,South,Clothing,Jacket,3,78,0.15,198.9,126,72.9,46.0,Winter
+ORD0013,2025-03-25,Central,Home & Kitchen,Coffee Maker,5,88,0.2,352.0,270,82.0,59.0,Spring
+ORD0014,2025-04-23,East,Clothing,Jacket,4,78,0.0,312.0,168,144.0,20.0,Spring
+ORD0015,2025-07-25,East,Clothing,Jacket,4,78,0.15,265.2,168,97.2,23.0,Summer
+ORD0016,2025-04-19,East,Home & Kitchen,Coffee Maker,8,88,0.0,704.0,432,272.0,44.0,Spring
+ORD0017,2025-03-13,West,Furniture,Bookshelf,7,120,0.15,714.0,602,112.0,36.0,Spring
+ORD0018,2025-07-05,North,Furniture,Desk,8,230,0.0,1840.0,1360,480.0,60.0,Summer
+ORD0019,2025-02-26,North,Furniture,Desk,7,230,0.15,1368.5,1190,178.5,38.0,Winter
+ORD0020,2025-07-17,North,Home & Kitchen,Coffee Maker,5,88,0.15,374.0,270,104.0,29.0,Summer
+ORD0021,2025-12-15,,Electronics,Smartphone,6,410,0.0,2460.0,1920,540.0,68.0,Winter
+ORD0022,2025-08-11,East,Furniture,Table Lamp,1,38,0.2,30.4,22,8.4,50.0,Summer
+ORD0023,2025-09-14,Central,Furniture,Office Chair,5,145,0.2,580.0,500,80.0,56.0,Autumn
+ORD0024,2025-11-08,Central,Furniture,Desk,6,230,0.0,1380.0,1020,360.0,29.0,Autumn
+ORD0025,2025-09-29,North,Electronics,Smartphone,8,410,0.0,3280.0,2560,720.0,32.0,Autumn
+ORD0026,2025-07-05,Central,Clothing,T-Shirt,1,22,0.0,22.0,10,12.0,56.0,Summer
+ORD0027,2025-02-10,South,Electronics,Monitor,2,180,0.15,306.0,260,46.0,21.0,Winter
+ORD0028,2025-03-07,Central,Home & Kitchen,Cookware Set,5,95,0.15,403.75,290,113.75,61.0,Spring
+ORD0029,2025-08-05,East,Furniture,Desk,5,230,0.1,1035.0,850,185.0,44.0,Summer
+ORD0030,2025-08-13,North,Home & Kitchen,Blender,4,65,0.0,260.0,156,104.0,49.0,Summer
+ORD0031,2025-06-23,North,Electronics,Headphones,4,55,0.0,220.0,112,108.0,31.0,Summer
+ORD0032,2025-12-29,East,Electronics,Headphones,2,55,0.0,110.0,56,54.0,75.0,Winter
+ORD0033,2025-02-06,Central,Furniture,Bookshelf,8,120,0.0,960.0,688,272.0,54.0,Winter
+ORD0034,2025-03-09,South,Home & Kitchen,Cookware Set,8,95,0.1,684.0,464,220.0,35.0,Spring
+ORD0035,2025-02-18,West,Electronics,Monitor,6,180,0.1,972.0,780,192.0,56.0,Winter
+ORD0036,2025-08-28,East,Electronics,Laptop,1,620,0.1,558.0,480,78.0,20.0,Summer
+ORD0037,2025-02-25,West,Furniture,Desk,4,230,0.15,782.0,680,102.0,58.0,Winter
+ORD0038,2025-03-13,South,Home & Kitchen,Cookware Set,5,95,0.1,427.5,290,137.5,19.0,Spring
+ORD0039,2025-02-08,Central,Home & Kitchen,Blender,1,65,0.2,52.0,39,13.0,31.0,Winter
+ORD0040,2025-01-08,West,Electronics,Headphones,3,55,0.1,148.5,84,64.5,45.0,Winter
+ORD0041,2025-09-04,West,Furniture,Table Lamp,1,38,0.0,38.0,22,16.0,68.0,Autumn
+ORD0042,2025-01-02,West,Home & Kitchen,Storage Box,8,18,0.05,136.8,64,72.8,58.0,Winter
+ORD0043,2025-12-23,South,Home & Kitchen,Cookware Set,4,95,0.05,361.0,232,129.0,52.0,Winter
+ORD0044,2025-01-30,Central,Electronics,Smartphone,1,410,0.0,410.0,320,90.0,36.0,Winter
+ORD0045,2025-09-02,North,Furniture,Office Chair,2,145,0.0,290.0,200,90.0,28.0,Autumn
+ORD0046,2025-11-01,Central,Electronics,Headphones,7,55,0.0,385.0,196,189.0,29.0,Autumn
+ORD0047,2025-05-07,Central,Electronics,Laptop,7,620,0.2,3472.0,3360,112.0,33.0,Spring
+ORD0048,2025-10-17,East,Clothing,Jeans,4,48,0.2,153.6,108,45.6,74.0,Autumn
+ORD0049,2025-05-03,East,Clothing,Sneakers,3,85,0.2,204.0,156,48.0,61.0,Spring
+ORD0050,2025-08-23,Central,Clothing,Jacket,1,78,0.1,70.2,42,28.2,23.0,Summer
+ORD0051,2025-10-16,East,Electronics,Laptop,4,620,0.15,2108.0,1920,188.0,47.0,Autumn
+ORD0052,2025-03-09,East,Clothing,Jacket,4,78,0.05,296.4,168,128.4,48.0,Spring
+ORD0053,2025-03-22,Central,Home & Kitchen,Storage Box,1,18,0.2,14.4,8,6.4,42.0,Spring
+ORD0054,2025-06-03,North,Electronics,Headphones,5,55,0.0,275.0,140,135.0,53.0,Summer
+ORD0055,2025-10-11,South,Furniture,Bookshelf,5,120,0.15,510.0,430,80.0,73.0,Autumn
+ORD0056,2025-06-25,North,Furniture,Bookshelf,8,120,0.05,912.0,688,224.0,71.0,Summer
+ORD0057,2025-02-17,East,Home & Kitchen,Storage Box,1,18,0.0,18.0,8,10.0,39.0,Winter
+ORD0058,2025-03-08,West,Clothing,T-Shirt,8,22,0.15,149.6,80,69.6,49.0,Spring
+ORD0059,2025-10-15,South,Electronics,Laptop,2,620,0.2,992.0,960,32.0,47.0,Autumn
+ORD0060,2025-10-07,South,Electronics,Smartphone,3,410,0.1,1107.0,960,147.0,59.0,Autumn
+ORD0061,2025-01-22,South,Clothing,Jeans,1,48,0.05,45.6,27,18.6,46.0,Winter
+ORD0062,2025-12-16,West,Furniture,Office Chair,6,145,0.15,739.5,600,139.5,51.0,Winter
+ORD0063,2025-11-14,West,Furniture,Desk,3,230,0.0,690.0,510,180.0,35.0,Autumn
+ORD0064,2025-01-13,South,Furniture,Bookshelf,7,120,0.2,672.0,602,70.0,33.0,Winter
+ORD0065,2025-05-17,West,Furniture,Office Chair,7,145,0.0,1015.0,700,315.0,69.0,Spring
+ORD0066,2025-04-24,South,Furniture,Table Lamp,6,38,0.05,216.6,132,84.6,79.0,Spring
+ORD0067,2025-04-25,East,Electronics,Headphones,7,55,0.05,365.75,196,169.75,40.0,Spring
+ORD0068,2025-02-05,Central,Clothing,Jeans,7,48,0.2,268.8,189,79.8,73.0,Winter
+ORD0069,2025-06-19,Central,Electronics,Laptop,5,620,0.0,3100.0,2400,700.0,48.0,Summer
+ORD0070,2025-05-16,East,Electronics,Laptop,7,620,0.05,4123.0,3360,763.0,30.0,Spring
+ORD0071,2025-08-12,,Electronics,Monitor,4,180,0.05,684.0,520,164.0,48.0,Summer
+ORD0072,2025-12-29,West,Home & Kitchen,Blender,4,65,0.05,247.0,156,91.0,82.0,Winter
+ORD0073,2025-02-05,East,Clothing,Jeans,2,48,0.2,76.8,54,22.8,54.0,Winter
+ORD0074,2025-09-17,East,Clothing,Sneakers,6,85,0.1,459.0,312,147.0,83.0,Autumn
+ORD0075,2025-10-11,West,Furniture,Desk,7,230,0.2,1288.0,1190,98.0,7.0,Autumn
+ORD0076,2025-12-13,North,Furniture,Bookshelf,7,120,0.15,714.0,602,112.0,69.0,Winter
+ORD0077,2025-06-05,Central,Clothing,T-Shirt,7,22,0.15,130.9,70,60.9,56.0,Summer
+ORD0078,2025-12-02,South,Clothing,Sneakers,8,85,0.1,612.0,416,196.0,49.0,Winter
+ORD0079,2025-09-19,Central,Home & Kitchen,Cookware Set,2,95,0.05,180.5,116,64.5,56.0,Autumn
+ORD0080,2025-12-06,East,Clothing,Jacket,4,78,0.2,249.6,168,81.6,19.0,Winter
+ORD0081,2025-04-26,South,Furniture,Desk,1,230,0.0,230.0,170,60.0,51.0,Spring
+ORD0082,2025-09-01,Central,Electronics,Monitor,7,180,0.2,1008.0,910,98.0,48.0,Autumn
+ORD0083,2025-04-10,South,Home & Kitchen,Coffee Maker,7,88,0.0,616.0,378,238.0,81.0,Spring
+ORD0084,2025-12-02,South,Electronics,Laptop,7,620,0.0,4340.0,3360,980.0,32.0,Winter
+ORD0085,2025-12-23,West,Home & Kitchen,Blender,4,65,0.0,260.0,156,104.0,40.0,Winter
+ORD0086,2025-03-10,Central,Home & Kitchen,Storage Box,8,18,0.15,122.4,64,58.4,45.0,Spring
+ORD0087,2025-08-07,East,Home & Kitchen,Cookware Set,8,95,0.1,684.0,464,220.0,71.0,Summer
+ORD0088,2025-05-07,West,Clothing,Sneakers,4,85,0.05,323.0,208,115.0,60.0,Spring
+ORD0089,2025-02-09,East,Clothing,T-Shirt,5,22,0.05,104.5,50,54.5,45.0,Winter
+ORD0090,2025-10-04,West,Electronics,Headphones,3,55,0.0,165.0,84,81.0,51.0,Autumn
+ORD0091,2025-12-22,West,Furniture,Desk,2,230,0.1,414.0,340,74.0,56.0,Winter
+ORD0092,2025-06-19,West,Home & Kitchen,Coffee Maker,1,88,0.0,88.0,54,34.0,72.0,Summer
+ORD0093,2025-07-19,East,Electronics,Monitor,8,180,0.0,1440.0,1040,400.0,29.0,Summer
+ORD0094,2025-06-02,South,Home & Kitchen,Coffee Maker,4,88,0.1,316.8,216,100.8,49.0,Summer
+ORD0095,2025-05-20,East,Home & Kitchen,Coffee Maker,1,88,0.1,79.2,54,25.2,47.0,Spring
+ORD0096,2025-12-09,Central,Home & Kitchen,Cookware Set,8,95,0.0,760.0,464,296.0,28.0,Winter
+ORD0097,2025-10-01,West,Electronics,Monitor,1,180,0.0,180.0,130,50.0,47.0,Autumn
+ORD0098,2025-03-11,West,Home & Kitchen,Cookware Set,1,95,0.05,90.25,58,32.25,59.0,Spring
+ORD0099,2025-06-17,West,Furniture,Table Lamp,6,38,0.05,216.6,132,84.6,55.0,Summer
+ORD0100,2025-05-23,North,Home & Kitchen,Storage Box,2,18,0.1,32.4,16,16.4,50.0,Spring
+ORD0101,2025-10-04,North,Electronics,Smartphone,4,410,0.2,1312.0,1280,32.0,16.0,Autumn
+ORD0102,2025-11-30,North,Electronics,Laptop,4,620,0.0,2480.0,1920,560.0,34.0,Autumn
+ORD0103,2025-11-15,North,Furniture,Desk,3,230,0.1,621.0,510,111.0,48.0,Autumn
+ORD0104,2025-10-16,South,Furniture,Table Lamp,5,38,0.05,180.5,110,70.5,40.0,Autumn
+ORD0105,2025-11-07,Central,Electronics,Headphones,5,55,0.0,275.0,140,135.0,39.0,Autumn
+ORD0106,2025-01-14,South,Clothing,Sneakers,7,85,0.2,476.0,364,112.0,62.0,Winter
+ORD0107,2025-02-08,Central,Furniture,Office Chair,5,145,0.2,580.0,500,80.0,88.0,Winter
+ORD0108,2025-03-03,East,Electronics,Smartphone,7,410,0.2,2296.0,2240,56.0,45.0,Spring
+ORD0109,2025-02-05,North,Clothing,Jacket,7,78,0.1,491.4,294,197.4,59.0,Winter
+ORD0110,2025-08-10,South,Clothing,Sneakers,3,85,0.1,229.5,156,73.5,53.0,Summer
+ORD0111,2025-09-25,Central,Clothing,Sneakers,8,85,0.1,612.0,416,196.0,20.0,Autumn
+ORD0112,2025-05-18,West,Clothing,T-Shirt,2,22,0.05,41.8,20,21.8,54.0,Spring
+ORD0113,2025-05-05,West,Home & Kitchen,Coffee Maker,6,88,0.0,528.0,324,204.0,56.0,Spring
+ORD0114,2025-06-16,East,Furniture,Table Lamp,4,38,0.05,144.4,88,56.4,99.0,Summer
+ORD0115,2025-06-24,South,Clothing,Jeans,1,48,0.15,40.8,27,13.8,51.0,Summer
+ORD0116,2025-02-13,South,Furniture,Table Lamp,8,38,0.15,258.4,176,82.4,60.0,Winter
+ORD0117,2025-12-20,North,Home & Kitchen,Coffee Maker,8,88,0.0,704.0,432,272.0,54.0,Winter
+ORD0118,2025-05-31,Central,Furniture,Table Lamp,4,38,0.05,144.4,88,56.4,33.0,Spring
+ORD0119,2025-07-08,Central,Home & Kitchen,Storage Box,7,18,0.2,100.8,56,44.8,75.0,Summer
+ORD0120,2025-06-19,East,Clothing,Sneakers,5,85,0.05,403.75,260,143.75,68.0,Summer
+ORD0121,2025-04-29,Central,Electronics,Headphones,6,55,0.0,330.0,168,162.0,56.0,Spring
+ORD0122,2025-12-20,West,Furniture,Desk,4,230,0.2,736.0,680,56.0,38.0,Winter
+ORD0123,2025-05-22,South,Clothing,Jacket,4,78,0.05,296.4,168,128.4,80.0,Spring
+ORD0124,2025-07-04,Central,Furniture,Bookshelf,1,120,0.2,96.0,86,10.0,29.0,Summer
+ORD0125,2025-03-06,East,Clothing,Jacket,1,78,0.15,66.3,42,24.3,65.0,Spring
+ORD0126,2025-12-24,Central,Furniture,Table Lamp,2,38,0.0,76.0,44,32.0,94.0,Winter
+ORD0127,2025-05-26,South,Home & Kitchen,Coffee Maker,8,88,0.05,668.8,432,236.8,37.0,Spring
+ORD0128,2025-01-27,West,Clothing,Sneakers,2,85,0.0,170.0,104,66.0,44.0,Winter
+ORD0129,2025-09-09,Central,Electronics,Laptop,3,620,0.0,1860.0,1440,420.0,43.0,Autumn
+ORD0130,2025-06-05,West,Electronics,Headphones,2,55,0.15,93.5,56,37.5,32.0,Summer
+ORD0131,2025-11-07,East,Furniture,Table Lamp,8,38,0.1,273.6,176,97.6,27.0,Autumn
+ORD0132,2025-10-29,North,Home & Kitchen,Storage Box,1,18,0.15,15.3,8,7.3,56.0,Autumn
+ORD0133,2025-04-17,South,Furniture,Bookshelf,2,120,0.0,240.0,172,68.0,35.0,Spring
+ORD0134,2025-03-30,West,Electronics,Headphones,1,55,0.1,49.5,28,21.5,50.0,Spring
+ORD0135,2025-12-19,East,Home & Kitchen,Storage Box,1,18,0.0,18.0,8,10.0,38.0,Winter
+ORD0136,2025-12-28,,Clothing,Sneakers,2,85,0.2,136.0,104,32.0,82.0,Winter
+ORD0137,2025-05-16,South,Furniture,Table Lamp,2,38,0.15,64.6,44,20.6,40.0,Spring
+ORD0138,2025-11-28,North,Furniture,Bookshelf,3,120,0.0,360.0,258,102.0,49.0,Autumn
+ORD0139,2025-03-26,West,Clothing,Jeans,8,48,0.0,384.0,216,168.0,69.0,Spring
+ORD0140,2025-12-19,Central,Clothing,Sneakers,5,85,0.15,361.25,260,101.25,32.0,Winter
+ORD0141,2025-09-10,East,Home & Kitchen,Blender,1,65,0.1,58.5,39,19.5,59.0,Autumn
+ORD0142,2025-11-06,Central,Clothing,Jacket,2,78,0.0,156.0,84,72.0,78.0,Autumn
+ORD0143,2025-10-28,West,Electronics,Smartphone,1,410,0.0,410.0,320,90.0,13.0,Autumn
+ORD0144,2025-09-23,West,Home & Kitchen,Storage Box,3,18,0.15,45.9,24,21.9,58.0,Autumn
+ORD0145,2025-11-22,West,Home & Kitchen,Blender,8,65,0.05,494.0,312,182.0,59.0,Autumn
+ORD0146,2025-06-20,West,Clothing,Jacket,3,78,0.05,222.3,126,96.3,69.0,Summer
+ORD0147,2025-12-22,North,Home & Kitchen,Storage Box,7,18,0.15,107.1,56,51.1,32.0,Winter
+ORD0148,2025-08-21,North,Electronics,Smartphone,5,410,0.05,1947.5,1600,347.5,18.0,Summer
+ORD0149,2025-07-26,South,Electronics,Monitor,7,180,0.0,1260.0,910,350.0,51.0,Summer
+ORD0150,2025-09-23,South,Clothing,Sneakers,8,85,0.0,680.0,416,264.0,60.0,Autumn
+ORD0151,2025-05-17,West,Furniture,Bookshelf,8,120,0.2,768.0,688,80.0,59.0,Spring
+ORD0152,2025-03-04,Central,Electronics,Headphones,3,55,0.05,156.75,84,72.75,48.0,Spring
+ORD0153,2025-01-08,West,Home & Kitchen,Blender,4,65,0.0,260.0,156,104.0,42.0,Winter
+ORD0154,2025-03-02,East,Furniture,Table Lamp,5,38,0.15,161.5,110,51.5,59.0,Spring
+ORD0155,2025-08-01,Central,Home & Kitchen,Coffee Maker,4,88,0.1,316.8,216,100.8,,Summer
+ORD0156,2025-03-16,East,Home & Kitchen,Cookware Set,3,95,0.0,285.0,174,111.0,42.0,Spring
+ORD0157,2025-08-01,East,Clothing,Jeans,1,48,0.05,45.6,27,18.6,88.0,Summer
+ORD0158,2025-10-28,West,Home & Kitchen,Cookware Set,8,95,0.15,646.0,464,182.0,63.0,Autumn
+ORD0159,2025-06-26,South,Clothing,Sneakers,8,85,0.05,646.0,416,230.0,33.0,Summer
+ORD0160,2025-12-24,North,Furniture,Table Lamp,4,38,0.1,136.8,88,48.8,66.0,Winter
+ORD0161,2025-06-12,South,Home & Kitchen,Coffee Maker,7,88,0.2,492.8,378,114.8,37.0,Summer
+ORD0162,2025-09-11,West,Electronics,Headphones,6,55,0.0,330.0,168,162.0,56.0,Autumn
+ORD0163,2025-02-21,South,Home & Kitchen,Blender,3,65,0.1,175.5,117,58.5,75.0,Winter
+ORD0164,2025-02-08,West,Home & Kitchen,Storage Box,6,18,0.15,91.8,48,43.8,40.0,Winter
+ORD0165,2025-11-29,West,Electronics,Smartphone,7,410,0.05,2726.5,2240,486.5,59.0,Autumn
+ORD0166,2025-10-05,East,Electronics,Laptop,4,620,0.2,1984.0,1920,64.0,49.0,Autumn
+ORD0167,2025-04-27,North,Electronics,Monitor,2,180,0.2,288.0,260,28.0,56.0,Spring
+ORD0168,2025-08-16,East,Furniture,Bookshelf,1,120,0.0,120.0,86,34.0,89.0,Summer
+ORD0169,2025-01-29,South,Clothing,Jeans,6,48,0.1,259.2,162,97.2,50.0,Winter
+ORD0170,2025-05-06,North,Home & Kitchen,Cookware Set,3,95,0.0,285.0,174,111.0,41.0,Spring
+ORD0171,2025-11-09,South,Home & Kitchen,Cookware Set,8,95,0.15,646.0,464,182.0,38.0,Autumn
+ORD0172,2025-04-29,North,Home & Kitchen,Storage Box,8,18,0.05,136.8,64,72.8,40.0,Spring
+ORD0173,2025-08-27,East,Clothing,T-Shirt,2,22,0.1,39.6,20,19.6,53.0,Summer
+ORD0174,2025-10-28,East,Clothing,Sneakers,5,85,0.1,382.5,260,122.5,61.0,Autumn
+ORD0175,2025-04-12,West,Home & Kitchen,Coffee Maker,2,88,0.0,176.0,108,68.0,59.0,Spring
+ORD0176,2025-10-20,West,Clothing,Jeans,5,48,0.0,240.0,135,105.0,69.0,Autumn
+ORD0177,2025-05-21,South,Electronics,Laptop,8,620,0.05,4712.0,3840,872.0,42.0,Spring
+ORD0178,2025-11-07,East,Clothing,T-Shirt,4,22,0.15,74.8,40,34.8,81.0,Autumn
+ORD0179,2025-12-14,West,Furniture,Office Chair,1,145,0.05,137.75,100,37.75,50.0,Winter
+ORD0180,2025-01-18,East,Clothing,T-Shirt,2,22,0.05,41.8,20,21.8,103.0,Winter
+ORD0181,2025-08-01,East,Furniture,Desk,3,230,0.15,586.5,510,76.5,66.0,Summer
+ORD0182,2025-09-29,East,Clothing,T-Shirt,5,22,0.1,99.0,50,49.0,39.0,Autumn
+ORD0183,2025-06-23,South,Electronics,Monitor,2,180,0.0,360.0,260,100.0,22.0,Summer
+ORD0184,2025-12-13,North,Home & Kitchen,Storage Box,2,18,0.1,32.4,16,16.4,63.0,Winter
+ORD0185,2025-05-16,East,Electronics,Monitor,6,180,0.2,864.0,780,84.0,37.0,Spring
+ORD0186,2025-10-27,South,Home & Kitchen,Storage Box,2,18,0.2,28.8,16,12.8,67.0,Autumn
+ORD0187,2025-08-30,North,Electronics,Smartphone,4,410,0.2,1312.0,1280,32.0,50.0,Summer
+ORD0188,2025-11-22,South,Home & Kitchen,Storage Box,7,18,0.0,126.0,56,70.0,53.0,Autumn
+ORD0189,2025-01-24,North,Electronics,Smartphone,8,410,0.0,3280.0,2560,720.0,26.0,Winter
+ORD0190,2025-05-01,Central,Furniture,Table Lamp,8,38,0.05,288.8,176,112.8,27.0,Spring
+ORD0191,2025-08-03,Central,Furniture,Table Lamp,2,38,0.1,68.4,44,24.4,46.0,Summer
+ORD0192,2025-07-28,West,Clothing,Jacket,6,78,0.0,468.0,252,216.0,70.0,Summer
+ORD0193,2025-08-16,East,Furniture,Bookshelf,2,120,0.2,192.0,172,20.0,58.0,Summer
+ORD0194,2025-10-06,South,Clothing,Jacket,7,78,0.05,518.7,294,224.7,32.0,Autumn
+ORD0195,2025-03-04,Central,Home & Kitchen,Blender,4,65,0.2,208.0,156,52.0,58.0,Spring
+ORD0196,2025-01-11,Central,Electronics,Smartphone,4,410,0.0,1640.0,1280,360.0,48.0,Winter
+ORD0197,2025-04-16,East,Electronics,Headphones,4,55,0.0,220.0,112,108.0,26.0,Spring
+ORD0198,2025-03-17,Central,Electronics,Smartphone,3,410,0.0,1230.0,960,270.0,44.0,Spring
+ORD0199,2025-05-09,North,Furniture,Office Chair,1,145,0.0,145.0,100,45.0,56.0,Spring
+ORD0200,2025-07-03,East,Furniture,Bookshelf,1,120,0.0,120.0,86,34.0,34.0,Summer
+ORD0201,2025-01-27,North,Furniture,Table Lamp,2,38,0.2,60.8,44,16.8,61.0,Winter
+ORD0202,2025-09-01,Central,Home & Kitchen,Storage Box,2,18,0.1,32.4,16,16.4,65.0,Autumn
+ORD0203,2025-04-24,North,Electronics,Smartphone,8,410,0.2,2624.0,2560,64.0,61.0,Spring
+ORD0204,2025-02-01,North,Home & Kitchen,Coffee Maker,7,88,0.2,492.8,378,114.8,73.0,Winter
+ORD0205,2025-09-09,Central,Home & Kitchen,Blender,2,65,0.05,123.5,78,45.5,30.0,Autumn
+ORD0206,2025-03-17,Central,Electronics,Headphones,5,55,0.15,233.75,140,93.75,25.0,Spring
+ORD0207,2025-10-08,Central,Clothing,Sneakers,5,85,0.1,382.5,260,122.5,64.0,Autumn
+ORD0208,2025-11-06,Central,Home & Kitchen,Blender,2,65,0.2,104.0,78,26.0,64.0,Autumn
+ORD0209,2025-04-21,East,Home & Kitchen,Coffee Maker,4,88,0.1,316.8,216,100.8,64.0,Spring
+ORD0210,2025-08-21,West,Home & Kitchen,Coffee Maker,2,88,0.05,167.2,108,59.2,124.0,Summer
+ORD0211,2025-06-10,West,Clothing,Jeans,3,48,0.2,115.2,81,34.2,65.0,Summer
+ORD0212,2025-02-04,North,Electronics,Laptop,2,620,0.1,1116.0,960,156.0,62.0,Winter
+ORD0213,2025-07-10,North,Furniture,Office Chair,6,145,0.2,696.0,600,96.0,72.0,Summer
+ORD0214,2025-07-30,Central,Clothing,Sneakers,1,85,0.05,80.75,52,28.75,66.0,Summer
+ORD0215,2025-06-09,West,Clothing,Jacket,4,78,0.0,312.0,168,144.0,49.0,Summer
+ORD0216,2025-04-25,East,Electronics,Smartphone,6,410,0.0,2460.0,1920,540.0,55.0,Spring
+ORD0217,2025-10-21,East,Furniture,Table Lamp,1,38,0.15,32.3,22,10.3,41.0,Autumn
+ORD0218,2025-01-15,East,Furniture,Bookshelf,5,120,0.05,570.0,430,140.0,50.0,Winter
+ORD0219,2025-01-04,South,Furniture,Desk,7,230,0.0,1610.0,1190,420.0,46.0,Winter
+ORD0220,2025-11-21,West,Electronics,Laptop,4,620,0.1,2232.0,1920,312.0,43.0,Autumn
+ORD0221,2025-08-21,East,Clothing,T-Shirt,6,22,0.05,125.4,60,65.4,96.0,Summer
+ORD0222,2025-10-18,Central,Electronics,Laptop,3,620,0.0,1860.0,1440,420.0,8.0,Autumn
+ORD0223,2025-01-26,West,Electronics,Smartphone,8,410,0.2,2624.0,2560,64.0,54.0,Winter
+ORD0224,2025-09-06,Central,Home & Kitchen,Coffee Maker,5,88,0.0,440.0,270,170.0,25.0,Autumn
+ORD0225,2025-02-28,Central,Clothing,Sneakers,2,85,0.05,161.5,104,57.5,46.0,Winter
+ORD0226,2025-09-07,Central,Clothing,Jacket,4,78,0.1,280.8,168,112.8,74.0,Autumn
+ORD0227,2025-01-29,South,Electronics,Headphones,5,55,0.0,275.0,140,135.0,43.0,Winter
+ORD0228,2025-05-11,West,Clothing,Jeans,2,48,0.0,96.0,54,42.0,35.0,Spring
+ORD0229,2025-08-09,South,Furniture,Desk,7,230,0.15,1368.5,1190,178.5,42.0,Summer
+ORD0230,2025-09-14,North,Clothing,Jacket,7,78,0.2,436.8,294,142.8,67.0,Autumn
+ORD0231,2025-08-12,Central,Electronics,Monitor,2,180,0.05,342.0,260,82.0,28.0,Summer
+ORD0232,2025-08-08,West,Home & Kitchen,Coffee Maker,5,88,0.0,440.0,270,170.0,58.0,Summer
+ORD0233,2025-01-11,East,Clothing,T-Shirt,8,22,0.2,140.8,80,60.8,55.0,Winter
+ORD0234,2025-02-15,Central,Home & Kitchen,Blender,4,65,0.1,234.0,156,78.0,43.0,Winter
+ORD0235,2025-07-25,East,Electronics,Monitor,5,180,0.2,720.0,650,70.0,80.0,Summer
+ORD0236,2025-04-24,North,Clothing,T-Shirt,2,22,0.15,37.4,20,17.4,66.0,Spring
+ORD0237,2025-09-29,South,Furniture,Bookshelf,6,120,0.2,576.0,516,60.0,18.0,Autumn
+ORD0238,2025-05-01,South,Electronics,Headphones,5,55,0.0,275.0,140,135.0,45.0,Spring
+ORD0239,2025-11-05,West,Furniture,Office Chair,3,145,0.2,348.0,300,48.0,43.0,Autumn
+ORD0240,2025-08-26,West,Home & Kitchen,Storage Box,6,18,0.0,108.0,48,60.0,70.0,Summer
+ORD0241,2025-02-04,Central,Home & Kitchen,Coffee Maker,5,88,0.05,418.0,270,148.0,40.0,Winter
+ORD0242,2025-01-29,West,Clothing,Jacket,5,78,0.1,351.0,210,141.0,52.0,Winter
+ORD0243,2025-01-20,North,Electronics,Smartphone,5,410,0.0,2050.0,1600,450.0,51.0,Winter
+ORD0244,2025-11-11,Central,Home & Kitchen,Coffee Maker,1,88,0.1,79.2,54,25.2,70.0,Autumn
+ORD0245,2025-11-30,South,Furniture,Bookshelf,8,120,0.15,816.0,688,128.0,33.0,Autumn
+ORD0246,2025-02-01,North,Home & Kitchen,Blender,6,65,0.2,312.0,234,78.0,48.0,Winter
+ORD0247,2025-09-16,West,Furniture,Office Chair,4,145,0.2,464.0,400,64.0,46.0,Autumn
+ORD0248,2025-08-13,West,Furniture,Bookshelf,6,120,0.05,684.0,516,168.0,43.0,Summer
+ORD0249,2025-07-29,East,Clothing,Jacket,6,78,0.0,468.0,252,216.0,86.0,Summer
+ORD0250,2025-02-18,Central,Home & Kitchen,Storage Box,5,18,0.2,72.0,40,32.0,62.0,Winter
+ORD0251,2025-03-18,East,Clothing,Jacket,3,78,0.05,222.3,126,96.3,32.0,Spring
+ORD0252,2025-12-02,Central,Home & Kitchen,Cookware Set,2,95,0.05,180.5,116,64.5,71.0,Winter
+ORD0253,2025-07-12,West,Clothing,T-Shirt,2,22,0.2,35.2,20,15.2,93.0,Summer
+ORD0254,2025-09-18,South,Clothing,Jacket,6,78,0.05,444.6,252,192.6,73.0,Autumn
+ORD0255,2025-04-20,South,Clothing,Sneakers,4,85,0.0,340.0,208,132.0,27.0,Spring
+ORD0256,2025-03-21,Central,Electronics,Smartphone,2,410,0.15,697.0,640,57.0,33.0,Spring
+ORD0257,2025-09-27,West,Electronics,Smartphone,3,410,0.15,1045.5,960,85.5,64.0,Autumn
+ORD0258,2025-03-20,West,Furniture,Desk,3,230,0.2,552.0,510,42.0,42.0,Spring
+ORD0259,2025-01-23,Central,Home & Kitchen,Storage Box,4,18,0.1,64.8,32,32.8,62.0,Winter
+ORD0260,2025-05-26,West,Home & Kitchen,Cookware Set,4,95,0.05,361.0,232,129.0,68.0,Spring
+ORD0261,2025-04-10,West,Clothing,Sneakers,8,85,0.05,646.0,416,230.0,38.0,Spring
+ORD0262,2025-09-15,South,Home & Kitchen,Cookware Set,4,95,0.15,323.0,232,91.0,53.0,Autumn
+ORD0263,2025-05-09,North,Electronics,Monitor,6,180,0.15,918.0,780,138.0,5.0,Spring
+ORD0264,2025-12-31,East,Electronics,Smartphone,2,410,0.0,820.0,640,180.0,23.0,Winter
+ORD0265,2025-08-19,West,Furniture,Table Lamp,2,38,0.0,76.0,44,32.0,50.0,Summer
+ORD0266,2025-06-28,Central,Electronics,Monitor,1,180,0.1,162.0,130,32.0,19.0,Summer
+ORD0267,2025-07-11,South,Furniture,Table Lamp,2,38,0.05,72.2,44,28.2,84.0,Summer
+ORD0268,2025-01-15,South,Clothing,Jacket,6,78,0.0,468.0,252,216.0,29.0,Winter
+ORD0269,2025-01-20,West,Clothing,Sneakers,3,85,0.2,204.0,156,48.0,47.0,Winter
+ORD0270,2025-08-18,South,Electronics,Laptop,1,620,0.05,589.0,480,109.0,44.0,Summer
+ORD0271,2025-03-18,East,Home & Kitchen,Blender,5,65,0.0,325.0,195,130.0,80.0,Spring
+ORD0272,2025-03-04,Central,Electronics,Headphones,7,55,0.2,308.0,196,112.0,16.0,Spring
+ORD0273,2025-08-23,Central,Electronics,Laptop,8,620,0.15,4216.0,3840,376.0,62.0,Summer
+ORD0274,2025-01-09,North,Furniture,Desk,5,230,0.1,1035.0,850,185.0,55.0,Winter
+ORD0275,2025-11-11,North,Clothing,T-Shirt,7,22,0.0,154.0,70,84.0,37.0,Autumn
+ORD0276,2025-09-26,West,Clothing,Jacket,1,78,0.1,70.2,42,28.2,63.0,Autumn
+ORD0277,2025-01-23,North,Home & Kitchen,Storage Box,5,18,0.2,72.0,40,32.0,58.0,Winter
+ORD0278,2025-07-02,North,Electronics,Smartphone,4,410,0.2,1312.0,1280,32.0,31.0,Summer
+ORD0279,2025-10-25,Central,Clothing,T-Shirt,1,22,0.05,20.9,10,10.9,56.0,Autumn
+ORD0280,2025-06-23,South,Furniture,Table Lamp,8,38,0.2,243.2,176,67.2,48.0,Summer
+ORD0281,2025-03-11,South,Electronics,Monitor,1,180,0.05,171.0,130,41.0,44.0,Spring
+ORD0282,2025-01-23,Central,Furniture,Office Chair,6,145,0.05,826.5,600,226.5,66.0,Winter
+ORD0283,2025-07-23,South,Home & Kitchen,Storage Box,1,18,0.2,14.4,8,6.4,83.0,Summer
+ORD0284,2025-05-27,North,Clothing,Jacket,6,78,0.05,444.6,252,192.6,32.0,Spring
+ORD0285,2025-07-08,East,Home & Kitchen,Coffee Maker,8,88,0.1,633.6,432,201.6,93.0,Summer
+ORD0286,2025-04-06,East,Home & Kitchen,Coffee Maker,6,88,0.15,448.8,324,124.8,19.0,Spring
+ORD0287,2025-02-12,South,Home & Kitchen,Blender,7,65,0.15,386.75,273,113.75,52.0,Winter
+ORD0288,2025-10-07,East,Clothing,Jeans,2,48,0.0,96.0,54,42.0,65.0,Autumn
+ORD0289,2025-12-05,West,Clothing,Jeans,8,48,0.15,326.4,216,110.4,60.0,Winter
+ORD0290,2025-03-27,East,Home & Kitchen,Storage Box,8,18,0.0,144.0,64,80.0,43.0,Spring
+ORD0291,2025-11-11,West,Home & Kitchen,Storage Box,1,18,0.0,18.0,8,10.0,51.0,Autumn
+ORD0292,2025-07-06,West,Furniture,Office Chair,3,145,0.15,369.75,300,69.75,46.0,Summer
+ORD0293,2025-01-18,East,Furniture,Office Chair,4,145,0.2,464.0,400,64.0,44.0,Winter
+ORD0294,2025-07-05,West,Home & Kitchen,Blender,3,65,0.2,156.0,117,39.0,70.0,Summer
+ORD0295,2025-07-09,South,Clothing,Sneakers,2,85,0.15,144.5,104,40.5,61.0,Summer
+ORD0296,2025-09-29,East,Clothing,Sneakers,6,85,0.2,408.0,312,96.0,42.0,Autumn
+ORD0297,2025-05-08,Central,Electronics,Laptop,3,620,0.1,1674.0,1440,234.0,58.0,Spring
+ORD0298,2025-07-18,West,Electronics,Smartphone,5,410,0.2,1640.0,1600,40.0,47.0,Summer
+ORD0299,2025-04-20,South,Clothing,Sneakers,4,85,0.0,340.0,208,132.0,69.0,Spring
+ORD0300,2025-02-07,East,Home & Kitchen,Cookware Set,8,95,0.0,760.0,464,296.0,66.0,Winter
+ORD0301,2025-12-08,South,Clothing,Jacket,5,78,0.05,370.5,210,160.5,40.0,Winter
+ORD0302,2025-12-31,South,Furniture,Bookshelf,4,120,0.0,480.0,344,136.0,44.0,Winter
+ORD0303,2025-03-13,Central,Furniture,Table Lamp,1,38,0.05,36.1,22,14.1,68.0,Spring
+ORD0304,2025-10-21,North,Clothing,Sneakers,3,85,0.15,216.75,156,60.75,65.0,Autumn
+ORD0305,2025-02-03,West,Clothing,Sneakers,8,85,0.15,578.0,416,162.0,54.0,Winter
+ORD0306,2025-07-29,North,Electronics,Headphones,6,55,0.2,264.0,168,96.0,44.0,Summer
+ORD0307,2025-08-19,Central,Home & Kitchen,Storage Box,3,18,0.15,45.9,24,21.9,77.0,Summer
+ORD0308,2025-04-04,Central,Furniture,Table Lamp,1,38,0.0,38.0,22,16.0,44.0,Spring
+ORD0309,2025-03-20,South,Clothing,T-Shirt,3,22,0.05,62.7,30,32.7,64.0,Spring
+ORD0310,2025-06-27,Central,Clothing,Jacket,5,78,0.0,390.0,210,180.0,51.0,Summer
+ORD0311,2025-05-21,South,Furniture,Bookshelf,2,120,0.15,204.0,172,32.0,51.0,Spring
+ORD0312,2025-10-31,North,Furniture,Desk,6,230,0.15,1173.0,1020,153.0,74.0,Autumn
+ORD0313,2025-01-15,South,Electronics,Laptop,5,620,0.2,2480.0,2400,80.0,56.0,Winter
+ORD0314,2025-10-20,Central,Home & Kitchen,Blender,8,65,0.2,416.0,312,104.0,69.0,Autumn
+ORD0315,2025-05-29,West,Clothing,Sneakers,4,85,0.2,272.0,208,64.0,78.0,Spring
+ORD0316,2025-06-02,West,Home & Kitchen,Blender,1,65,0.0,65.0,39,26.0,55.0,Summer
+ORD0317,2025-08-01,Central,Home & Kitchen,Coffee Maker,4,88,0.05,334.4,216,118.4,67.0,Summer
+ORD0318,2025-03-15,South,Clothing,Jeans,6,48,0.1,259.2,162,97.2,49.0,Spring
+ORD0319,2025-07-09,North,Electronics,Smartphone,4,410,0.1,1476.0,1280,196.0,47.0,Summer
+ORD0320,2025-05-17,North,Home & Kitchen,Cookware Set,3,95,0.0,285.0,174,111.0,52.0,Spring
+ORD0321,2025-05-29,East,Home & Kitchen,Coffee Maker,4,88,0.0,352.0,216,136.0,56.0,Spring
+ORD0322,2025-10-23,Central,Clothing,T-Shirt,3,22,0.1,59.4,30,29.4,65.0,Autumn
+ORD0323,2025-08-28,North,Home & Kitchen,Storage Box,8,18,0.0,144.0,64,80.0,40.0,Summer
+ORD0324,2025-07-21,East,Home & Kitchen,Cookware Set,4,95,0.15,323.0,232,91.0,92.0,Summer
+ORD0325,2025-01-25,West,Electronics,Smartphone,8,410,0.15,2788.0,2560,228.0,23.0,Winter
+ORD0326,2025-05-27,East,Electronics,Laptop,7,620,0.0,4340.0,3360,980.0,20.0,Spring
+ORD0327,2025-07-07,North,Home & Kitchen,Storage Box,1,18,0.1,16.2,8,8.2,75.0,Summer
+ORD0328,2025-10-19,West,Furniture,Bookshelf,5,120,0.0,600.0,430,170.0,69.0,Autumn
+ORD0329,2025-09-16,North,Home & Kitchen,Storage Box,2,18,0.0,36.0,16,20.0,66.0,Autumn
+ORD0330,2025-07-21,South,Clothing,Jeans,6,48,0.0,288.0,162,126.0,66.0,Summer
+ORD0331,2025-11-05,South,Home & Kitchen,Blender,1,65,0.0,65.0,39,26.0,54.0,Autumn
+ORD0332,2025-06-20,Central,Home & Kitchen,Coffee Maker,3,88,0.15,224.4,162,62.4,38.0,Summer
+ORD0333,2025-03-13,Central,Clothing,Jeans,3,48,0.1,129.6,81,48.6,56.0,Spring
+ORD0334,2025-06-03,North,Clothing,Sneakers,5,85,0.1,382.5,260,122.5,42.0,Summer
+ORD0335,2025-07-08,East,Clothing,Jacket,7,78,0.15,464.1,294,170.1,72.0,Summer
+ORD0336,2025-12-19,Central,Electronics,Monitor,5,180,0.2,720.0,650,70.0,39.0,Winter
+ORD0337,2025-10-23,Central,Furniture,Office Chair,8,145,0.0,1160.0,800,360.0,40.0,Autumn
+ORD0338,2025-11-19,Central,Home & Kitchen,Cookware Set,4,95,0.0,380.0,232,148.0,49.0,Autumn
+ORD0339,2025-12-25,East,Electronics,Headphones,1,55,0.1,49.5,28,21.5,49.0,Winter
+ORD0340,2025-08-03,Central,Furniture,Table Lamp,4,38,0.1,136.8,88,48.8,44.0,Summer
+ORD0341,2025-11-10,South,Home & Kitchen,Blender,3,65,0.15,165.75,117,48.75,40.0,Autumn
+ORD0342,2025-10-15,South,Clothing,Sneakers,7,85,0.05,565.25,364,201.25,59.0,Autumn
+ORD0343,2025-08-24,West,Clothing,Jeans,5,48,0.15,204.0,135,69.0,59.0,Summer
+ORD0344,2025-04-09,East,Furniture,Bookshelf,5,120,0.0,600.0,430,170.0,45.0,Spring
+ORD0345,2025-05-28,East,Furniture,Table Lamp,6,38,0.1,205.2,132,73.2,46.0,Spring
+ORD0346,2025-10-14,Central,Clothing,Jeans,2,48,0.15,81.6,54,27.6,59.0,Autumn
+ORD0347,2025-07-14,North,Home & Kitchen,Storage Box,3,18,0.05,51.3,24,27.3,28.0,Summer
+ORD0348,2025-05-28,East,Electronics,Smartphone,8,410,0.2,2624.0,2560,64.0,16.0,Spring
+ORD0349,2025-09-03,East,Furniture,Desk,5,230,0.15,977.5,850,127.5,42.0,Autumn
+ORD0350,2025-03-12,Central,Electronics,Headphones,4,55,0.0,220.0,112,108.0,38.0,Spring
+ORD0351,2025-04-26,East,Furniture,Office Chair,2,145,0.1,261.0,200,61.0,60.0,Spring
+ORD0352,2025-08-30,South,Electronics,Headphones,1,55,0.15,46.75,28,18.75,68.0,Summer
+ORD0353,2025-07-28,East,Home & Kitchen,Coffee Maker,4,88,0.05,334.4,216,118.4,70.0,Summer
+ORD0354,2025-05-27,North,Electronics,Laptop,4,620,0.15,2108.0,1920,188.0,39.0,Spring
+ORD0355,2025-03-31,West,Home & Kitchen,Cookware Set,1,95,0.1,85.5,58,27.5,54.0,Spring
+ORD0356,2025-04-06,Central,Clothing,Jacket,1,78,0.05,74.1,42,32.1,36.0,Spring
+ORD0357,2025-11-05,Central,Electronics,Smartphone,5,410,0.1,1845.0,1600,245.0,41.0,Autumn
+ORD0358,2025-09-26,South,Home & Kitchen,Cookware Set,8,95,0.05,722.0,464,258.0,49.0,Autumn
+ORD0359,2025-02-27,East,Clothing,T-Shirt,8,22,0.2,140.8,80,60.8,60.0,Winter
+ORD0360,2025-04-06,South,Electronics,Smartphone,5,410,0.15,1742.5,1600,142.5,27.0,Spring
+ORD0361,2025-03-31,West,Home & Kitchen,Coffee Maker,6,88,0.0,528.0,324,204.0,64.0,Spring
+ORD0362,2025-12-09,East,Electronics,Headphones,3,55,0.1,148.5,84,64.5,69.0,Winter
+ORD0363,2025-05-08,West,Electronics,Smartphone,7,410,0.0,2870.0,2240,630.0,40.0,Spring
+ORD0364,2025-05-17,East,Clothing,Jeans,1,48,0.05,45.6,27,18.6,62.0,Spring
+ORD0365,2025-12-21,East,Furniture,Office Chair,2,145,0.1,261.0,200,61.0,67.0,Winter
+ORD0366,2025-03-23,East,Home & Kitchen,Storage Box,2,18,0.2,28.8,16,12.8,47.0,Spring
+ORD0367,2025-07-08,South,Furniture,Desk,3,230,0.1,621.0,510,111.0,59.0,Summer
+ORD0368,2025-08-21,South,Clothing,Sneakers,8,85,0.15,578.0,416,162.0,55.0,Summer
+ORD0369,2025-05-07,Central,Electronics,Monitor,6,180,0.0,1080.0,780,300.0,43.0,Spring
+ORD0370,2025-02-27,East,Electronics,Headphones,3,55,0.0,165.0,84,81.0,28.0,Winter
+ORD0371,2025-09-24,Central,Home & Kitchen,Blender,4,65,0.2,208.0,156,52.0,55.0,Autumn
+ORD0372,2025-09-08,South,Electronics,Monitor,1,180,0.1,162.0,130,32.0,50.0,Autumn
+ORD0373,2025-09-20,West,Home & Kitchen,Coffee Maker,1,88,0.15,74.8,54,20.8,81.0,Autumn
+ORD0374,2025-12-11,North,Clothing,Jacket,7,78,0.05,518.7,294,224.7,72.0,Winter
+ORD0375,2025-04-22,North,Electronics,Laptop,7,620,0.05,4123.0,3360,763.0,80.0,Spring
+ORD0376,2025-10-05,East,Electronics,Laptop,8,620,0.0,4960.0,3840,1120.0,28.0,Autumn
+ORD0377,2025-07-29,West,Furniture,Desk,7,230,0.05,1529.5,1190,339.5,70.0,Summer
+ORD0378,2025-08-18,Central,Home & Kitchen,Coffee Maker,2,88,0.2,140.8,108,32.8,58.0,Summer
+ORD0379,2025-03-10,West,Clothing,Jacket,3,78,0.15,198.9,126,72.9,94.0,Spring
+ORD0380,2025-09-28,East,Furniture,Desk,1,230,0.0,230.0,170,60.0,40.0,Autumn
+ORD0381,2025-08-26,West,Home & Kitchen,Coffee Maker,4,88,0.0,352.0,216,136.0,39.0,Summer
+ORD0382,2025-06-27,North,Furniture,Bookshelf,4,120,0.2,384.0,344,40.0,44.0,Summer
+ORD0383,2025-01-17,North,Home & Kitchen,Blender,4,65,0.0,260.0,156,104.0,16.0,Winter
+ORD0384,2025-02-21,North,Electronics,Monitor,1,180,0.0,180.0,130,50.0,,Winter
+ORD0385,2025-07-25,South,Home & Kitchen,Cookware Set,4,95,0.0,380.0,232,148.0,41.0,Summer
+ORD0386,2025-09-15,Central,Clothing,T-Shirt,6,22,0.15,112.2,60,52.2,57.0,Autumn
+ORD0387,2025-12-11,Central,Clothing,T-Shirt,5,22,0.0,110.0,50,60.0,61.0,Winter
+ORD0388,2025-04-24,Central,Home & Kitchen,Storage Box,5,18,0.0,90.0,40,50.0,88.0,Spring
+ORD0389,2025-10-30,East,Furniture,Table Lamp,8,38,0.0,304.0,176,128.0,72.0,Autumn
+ORD0390,2025-11-26,South,Home & Kitchen,Storage Box,7,18,0.1,113.4,56,57.4,44.0,Autumn
+ORD0391,2025-06-03,South,Home & Kitchen,Cookware Set,8,95,0.0,760.0,464,296.0,38.0,Summer
+ORD0392,2025-06-03,West,Furniture,Table Lamp,1,38,0.15,32.3,22,10.3,63.0,Summer
+ORD0393,2025-08-02,South,Furniture,Table Lamp,4,38,0.05,144.4,88,56.4,,Summer
+ORD0394,2025-06-19,Central,Electronics,Monitor,6,180,0.0,1080.0,780,300.0,74.0,Summer
+ORD0395,2025-04-08,Central,Electronics,Smartphone,7,410,0.2,2296.0,2240,56.0,63.0,Spring
+ORD0396,2025-11-05,Central,Electronics,Laptop,4,620,0.15,2108.0,1920,188.0,33.0,Autumn
+ORD0397,2025-04-22,North,Home & Kitchen,Cookware Set,6,95,0.05,541.5,348,193.5,24.0,Spring
+ORD0398,2025-04-19,Central,Furniture,Office Chair,8,145,0.0,1160.0,800,360.0,79.0,Spring
+ORD0399,2025-12-27,East,Furniture,Table Lamp,4,38,0.15,129.2,88,41.2,52.0,Winter
+ORD0400,2025-05-25,East,Home & Kitchen,Coffee Maker,6,88,0.05,501.6,324,177.6,77.0,Spring
+ORD0401,2025-07-04,West,Home & Kitchen,Coffee Maker,2,88,0.2,140.8,108,32.8,26.0,Summer
+ORD0402,2025-06-13,North,Furniture,Bookshelf,6,120,0.1,648.0,516,132.0,44.0,Summer
+ORD0403,2025-10-16,Central,Furniture,Desk,1,230,0.05,218.5,170,48.5,55.0,Autumn
+ORD0404,2025-10-27,East,Home & Kitchen,Storage Box,3,18,0.0,54.0,24,30.0,55.0,Autumn
+ORD0405,2025-04-28,East,Home & Kitchen,Cookware Set,8,95,0.15,646.0,464,182.0,46.0,Spring
+ORD0406,2025-05-12,East,Home & Kitchen,Coffee Maker,8,88,0.0,704.0,432,272.0,66.0,Spring
+ORD0407,2025-03-28,North,Furniture,Table Lamp,3,38,0.15,96.9,66,30.9,35.0,Spring
+ORD0408,2025-09-26,West,Electronics,Laptop,1,620,0.0,620.0,480,140.0,39.0,Autumn
+ORD0409,2025-03-12,South,Furniture,Office Chair,3,145,0.0,435.0,300,135.0,57.0,Spring
+ORD0410,2025-09-16,Central,Home & Kitchen,Storage Box,1,18,0.15,15.3,8,7.3,64.0,Autumn
+ORD0411,2025-09-05,Central,Home & Kitchen,Blender,1,65,0.15,55.25,39,16.25,67.0,Autumn
+ORD0412,2025-07-30,East,Electronics,Laptop,5,620,0.15,2635.0,2400,235.0,21.0,Summer
+ORD0413,2025-01-09,Central,Home & Kitchen,Cookware Set,2,95,0.0,190.0,116,74.0,27.0,Winter
+ORD0414,2025-03-18,East,Furniture,Desk,5,230,0.05,1092.5,850,242.5,77.0,Spring
+ORD0415,2025-07-23,Central,Electronics,Smartphone,7,410,0.1,2583.0,2240,343.0,47.0,Summer
+ORD0416,2025-05-05,North,Furniture,Bookshelf,2,120,0.2,192.0,172,20.0,41.0,Spring
+ORD0417,2025-02-17,West,Home & Kitchen,Coffee Maker,7,88,0.15,523.6,378,145.6,82.0,Winter
+ORD0418,2025-01-29,West,Electronics,Headphones,2,55,0.1,99.0,56,43.0,44.0,Winter
+ORD0419,2025-11-27,South,Clothing,Jacket,1,78,0.0,78.0,42,36.0,76.0,Autumn
+ORD0420,2025-12-21,East,Home & Kitchen,Storage Box,1,18,0.0,18.0,8,10.0,56.0,Winter
+ORD0421,2025-10-06,South,Electronics,Headphones,6,55,0.0,330.0,168,162.0,79.0,Autumn
+ORD0422,2025-10-28,South,Furniture,Table Lamp,2,38,0.05,72.2,44,28.2,86.0,Autumn
+ORD0423,2025-10-16,South,Furniture,Table Lamp,6,38,0.1,205.2,132,73.2,50.0,Autumn
+ORD0424,2025-12-19,West,Electronics,Smartphone,1,410,0.0,410.0,320,90.0,59.0,Winter
+ORD0425,2025-04-29,North,Electronics,Smartphone,7,410,0.05,2726.5,2240,486.5,53.0,Spring
+ORD0426,2025-11-21,East,Clothing,Sneakers,8,85,0.0,680.0,416,264.0,79.0,Autumn
+ORD0427,2025-10-11,Central,Home & Kitchen,Coffee Maker,3,88,0.2,211.2,162,49.2,37.0,Autumn
+ORD0428,2025-12-05,North,Home & Kitchen,Blender,5,65,0.0,325.0,195,130.0,67.0,Winter
+ORD0429,2025-02-12,South,Clothing,T-Shirt,7,22,0.2,123.2,70,53.2,74.0,Winter
+ORD0430,2025-07-19,North,Clothing,Jeans,2,48,0.0,96.0,54,42.0,23.0,Summer
+ORD0431,2025-06-07,South,Home & Kitchen,Storage Box,5,18,0.0,90.0,40,50.0,33.0,Summer
+ORD0432,2025-02-14,Central,Furniture,Table Lamp,8,38,0.15,258.4,176,82.4,18.0,Winter
+ORD0433,2025-09-20,East,Home & Kitchen,Blender,1,65,0.0,65.0,39,26.0,50.0,Autumn
+ORD0434,2025-10-11,East,Electronics,Smartphone,7,410,0.0,2870.0,2240,630.0,54.0,Autumn
+ORD0435,2025-07-31,Central,Home & Kitchen,Blender,4,65,0.15,221.0,156,65.0,82.0,Summer
+ORD0436,2025-03-28,East,Home & Kitchen,Cookware Set,3,95,0.05,270.75,174,96.75,56.0,Spring
+ORD0437,2025-05-18,West,Home & Kitchen,Cookware Set,2,95,0.0,190.0,116,74.0,84.0,Spring
+ORD0438,2025-05-22,East,Home & Kitchen,Storage Box,8,18,0.0,144.0,64,80.0,,Spring
+ORD0439,2025-05-09,,Furniture,Table Lamp,4,38,0.1,136.8,88,48.8,24.0,Spring
+ORD0440,2025-03-11,Central,Clothing,Jacket,7,78,0.05,518.7,294,224.7,54.0,Spring
+ORD0441,2025-07-14,Central,Clothing,Sneakers,6,85,0.1,459.0,312,147.0,61.0,Summer
+ORD0442,2025-03-11,East,Clothing,Jeans,4,48,0.1,172.8,108,64.8,54.0,Spring
+ORD0443,2025-04-01,West,Home & Kitchen,Storage Box,5,18,0.2,72.0,40,32.0,17.0,Spring
+ORD0444,2025-10-22,West,Furniture,Bookshelf,7,120,0.05,798.0,602,196.0,53.0,Autumn
+ORD0445,2025-07-06,Central,Electronics,Headphones,3,55,0.2,132.0,84,48.0,18.0,Summer
+ORD0446,2025-01-14,North,Home & Kitchen,Cookware Set,8,95,0.05,722.0,464,258.0,67.0,Winter
+ORD0447,2025-07-29,East,Home & Kitchen,Cookware Set,5,95,0.0,475.0,290,185.0,61.0,Summer
+ORD0448,2025-12-04,West,Furniture,Table Lamp,7,38,0.0,266.0,154,112.0,38.0,Winter
+ORD0449,2025-11-03,North,Home & Kitchen,Coffee Maker,7,88,0.15,523.6,378,145.6,45.0,Autumn
+ORD0450,2025-07-04,East,Electronics,Laptop,4,620,0.2,1984.0,1920,64.0,22.0,Summer
+ORD0451,2025-03-27,North,Electronics,Monitor,6,180,0.1,972.0,780,192.0,40.0,Spring
+ORD0452,2025-01-06,Central,Electronics,Smartphone,4,410,0.15,1394.0,1280,114.0,59.0,Winter
+ORD0453,2025-10-13,West,Furniture,Table Lamp,6,38,0.1,205.2,132,73.2,37.0,Autumn
+ORD0454,2025-12-14,North,Furniture,Bookshelf,1,120,0.1,108.0,86,22.0,64.0,Winter
+ORD0455,2025-06-01,South,Home & Kitchen,Blender,2,65,0.2,104.0,78,26.0,45.0,Summer
+ORD0456,2025-06-28,Central,Clothing,Jeans,8,48,0.0,384.0,216,168.0,40.0,Summer
+ORD0457,2025-09-05,West,Clothing,Sneakers,2,85,0.1,153.0,104,49.0,53.0,Autumn
+ORD0458,2025-06-13,North,Electronics,Smartphone,1,410,0.2,328.0,320,8.0,23.0,Summer
+ORD0459,2025-01-12,South,Clothing,Jacket,3,78,0.2,187.2,126,61.2,45.0,Winter
+ORD0460,2025-09-22,West,Furniture,Desk,6,230,0.15,1173.0,1020,153.0,33.0,Autumn
+ORD0461,2025-08-25,West,Furniture,Table Lamp,3,38,0.0,114.0,66,48.0,90.0,Summer
+ORD0462,2025-07-22,West,Electronics,Headphones,8,55,0.15,374.0,224,150.0,42.0,Summer
+ORD0463,2025-07-19,North,Electronics,Headphones,4,55,0.05,209.0,112,97.0,29.0,Summer
+ORD0464,2025-10-23,South,Electronics,Headphones,6,55,0.05,313.5,168,145.5,45.0,Autumn
+ORD0465,2025-08-23,East,Electronics,Smartphone,8,410,0.15,2788.0,2560,228.0,39.0,Summer
+ORD0466,2025-11-02,East,Home & Kitchen,Coffee Maker,2,88,0.05,167.2,108,59.2,51.0,Autumn
+ORD0467,2025-08-23,South,Furniture,Bookshelf,2,120,0.2,192.0,172,20.0,66.0,Summer
+ORD0468,2025-06-10,South,Electronics,Headphones,5,55,0.0,275.0,140,135.0,55.0,Summer
+ORD0469,2025-07-11,South,Furniture,Table Lamp,7,38,0.15,226.1,154,72.1,45.0,Summer
+ORD0470,2025-10-22,Central,Home & Kitchen,Coffee Maker,3,88,0.1,237.6,162,75.6,44.0,Autumn
+ORD0471,2025-12-22,South,Furniture,Desk,8,230,0.05,1748.0,1360,388.0,50.0,Winter
+ORD0472,2025-04-06,North,Clothing,Sneakers,1,85,0.05,80.75,52,28.75,13.0,Spring
+ORD0473,2025-09-06,Central,Furniture,Desk,7,230,0.15,1368.5,1190,178.5,27.0,Autumn
+ORD0474,2025-12-01,West,Home & Kitchen,Coffee Maker,8,88,0.1,633.6,432,201.6,79.0,Winter
+ORD0475,2025-09-08,East,Furniture,Office Chair,1,145,0.0,145.0,100,45.0,84.0,Autumn
+ORD0476,2025-01-17,West,Clothing,T-Shirt,5,22,0.0,110.0,50,60.0,50.0,Winter
+ORD0477,2025-10-17,Central,Home & Kitchen,Blender,2,65,0.05,123.5,78,45.5,65.0,Autumn
+ORD0478,2025-07-07,North,Electronics,Monitor,4,180,0.1,648.0,520,128.0,47.0,Summer
+ORD0479,2025-12-01,East,Furniture,Bookshelf,1,120,0.1,108.0,86,22.0,110.0,Winter
+ORD0480,2025-06-28,South,Electronics,Monitor,2,180,0.0,360.0,260,100.0,62.0,Summer
+ORD0481,2025-10-29,South,Clothing,Sneakers,3,85,0.15,216.75,156,60.75,52.0,Autumn
+ORD0482,2025-04-16,East,Furniture,Office Chair,6,145,0.15,739.5,600,139.5,37.0,Spring
+ORD0483,2025-11-02,Central,Furniture,Bookshelf,5,120,0.05,570.0,430,140.0,26.0,Autumn
+ORD0484,2025-05-17,East,Electronics,Headphones,7,55,0.0,385.0,196,189.0,45.0,Spring
+ORD0485,2025-12-02,East,Furniture,Desk,4,230,0.0,920.0,680,240.0,41.0,Winter
+ORD0486,2025-05-07,East,Home & Kitchen,Coffee Maker,3,88,0.15,224.4,162,62.4,29.0,Spring
+ORD0487,2025-11-18,North,Home & Kitchen,Coffee Maker,8,88,0.0,704.0,432,272.0,43.0,Autumn
+ORD0488,2025-07-26,East,Clothing,Jeans,8,48,0.1,345.6,216,129.6,35.0,Summer
+ORD0489,2025-10-25,East,Electronics,Laptop,8,620,0.2,3968.0,3840,128.0,72.0,Autumn
+ORD0490,2025-02-02,West,Home & Kitchen,Cookware Set,7,95,0.0,665.0,406,259.0,70.0,Winter
+ORD0491,2025-05-18,Central,Clothing,Jeans,6,48,0.15,244.8,162,82.8,54.0,Spring
+ORD0492,2025-03-08,North,Home & Kitchen,Storage Box,1,18,0.0,18.0,8,10.0,81.0,Spring
+ORD0493,2025-11-17,West,Home & Kitchen,Blender,2,65,0.0,130.0,78,52.0,56.0,Autumn
+ORD0494,2025-08-22,South,Electronics,Monitor,4,180,0.2,576.0,520,56.0,26.0,Summer
+ORD0495,2025-11-29,East,Clothing,T-Shirt,5,22,0.0,110.0,50,60.0,82.0,Autumn
+ORD0496,2025-05-09,West,Electronics,Smartphone,3,410,0.0,1230.0,960,270.0,51.0,Spring
+ORD0497,2025-11-17,North,Clothing,T-Shirt,7,22,0.2,123.2,70,53.2,36.0,Autumn
+ORD0498,2025-12-27,North,Electronics,Laptop,4,620,0.1,2232.0,1920,312.0,38.0,Winter
+ORD0499,2025-03-09,East,Furniture,Table Lamp,1,38,0.0,38.0,22,16.0,39.0,Spring
+ORD0500,2025-03-03,South,Home & Kitchen,Cookware Set,8,95,0.0,760.0,464,296.0,30.0,Spring
+ORD0501,2025-07-16,East,Electronics,Laptop,2,620,0.05,1178.0,960,218.0,58.0,Summer
+ORD0502,2025-06-03,South,Furniture,Table Lamp,3,38,0.2,91.2,66,25.2,89.0,Summer
+ORD0503,2025-02-05,South,Electronics,Headphones,8,55,0.05,418.0,224,194.0,16.0,Winter
+ORD0504,2025-11-18,North,Furniture,Table Lamp,8,38,0.0,304.0,176,128.0,65.0,Autumn
+ORD0505,2025-02-21,West,Furniture,Office Chair,7,145,0.05,964.25,700,264.25,43.0,Winter
+ORD0506,2025-06-11,North,Furniture,Desk,5,230,0.2,920.0,850,70.0,46.0,Summer
+ORD0507,2025-05-08,Central,Clothing,Jacket,5,78,0.0,390.0,210,180.0,44.0,Spring
+ORD0508,2025-11-07,North,Furniture,Table Lamp,5,38,0.2,152.0,110,42.0,39.0,Autumn
+ORD0509,2025-05-03,West,Home & Kitchen,Coffee Maker,2,88,0.0,176.0,108,68.0,55.0,Spring
+ORD0510,2025-11-23,South,Electronics,Laptop,6,620,0.05,3534.0,2880,654.0,27.0,Autumn
+ORD0511,2025-07-18,North,Home & Kitchen,Storage Box,3,18,0.1,48.6,24,24.6,59.0,Summer
+ORD0512,2025-01-09,North,Electronics,Laptop,5,620,0.0,3100.0,2400,700.0,41.0,Winter
+ORD0513,2025-01-31,West,Home & Kitchen,Storage Box,7,18,0.1,113.4,56,57.4,50.0,Winter
+ORD0514,2025-02-12,North,Furniture,Bookshelf,2,120,0.05,228.0,172,56.0,38.0,Winter
+ORD0515,2025-09-19,Central,Furniture,Desk,6,230,0.1,1242.0,1020,222.0,44.0,Autumn
+ORD0516,2025-11-21,South,Electronics,Smartphone,7,410,0.2,2296.0,2240,56.0,55.0,Autumn
+ORD0517,2025-01-30,West,Furniture,Office Chair,7,145,0.0,1015.0,700,315.0,64.0,Winter
+ORD0518,2025-11-10,North,Electronics,Smartphone,3,410,0.0,1230.0,960,270.0,24.0,Autumn
+ORD0519,2025-12-29,East,Furniture,Office Chair,3,145,0.1,391.5,300,91.5,56.0,Winter
+ORD0520,2025-09-25,East,Clothing,T-Shirt,6,22,0.0,132.0,60,72.0,68.0,Autumn
+ORD0521,2025-03-02,Central,Electronics,Smartphone,7,410,0.05,2726.5,2240,486.5,11.0,Spring
+ORD0522,2025-02-02,Central,Clothing,Jacket,8,78,0.1,561.6,336,225.6,64.0,Winter
+ORD0523,2025-07-04,South,Electronics,Monitor,3,180,0.05,513.0,390,123.0,30.0,Summer
+ORD0524,2025-05-11,Central,Electronics,Laptop,4,620,0.2,1984.0,1920,64.0,52.0,Spring
+ORD0525,2025-01-02,West,Electronics,Laptop,4,620,0.0,2480.0,1920,560.0,28.0,Winter
+ORD0526,2025-07-06,Central,Home & Kitchen,Cookware Set,3,95,0.0,285.0,174,111.0,22.0,Summer
+ORD0527,2025-12-02,West,Home & Kitchen,Cookware Set,6,95,0.0,570.0,348,222.0,25.0,Winter
+ORD0528,2025-06-13,Central,Clothing,Jacket,6,78,0.0,468.0,252,216.0,55.0,Summer
+ORD0529,2025-12-11,North,Electronics,Headphones,4,55,0.15,187.0,112,75.0,46.0,Winter
+ORD0530,2025-07-25,East,Electronics,Monitor,5,180,0.05,855.0,650,205.0,25.0,Summer
+ORD0531,2025-02-14,East,Home & Kitchen,Blender,6,65,0.0,390.0,234,156.0,66.0,Winter
+ORD0532,2025-10-16,Central,Clothing,T-Shirt,8,22,0.05,167.2,80,87.2,25.0,Autumn
+ORD0533,2025-09-10,West,Furniture,Desk,3,230,0.0,690.0,510,180.0,53.0,Autumn
+ORD0534,2025-01-13,North,Furniture,Bookshelf,1,120,0.05,114.0,86,28.0,33.0,Winter
+ORD0535,2025-12-03,,Home & Kitchen,Storage Box,2,18,0.0,36.0,16,20.0,43.0,Winter
+ORD0536,2025-05-02,East,Home & Kitchen,Coffee Maker,1,88,0.0,88.0,54,34.0,55.0,Spring
+ORD0537,2025-02-17,East,Electronics,Headphones,7,55,0.2,308.0,196,112.0,26.0,Winter
+ORD0538,2025-08-23,West,Electronics,Laptop,3,620,0.2,1488.0,1440,48.0,35.0,Summer
+ORD0539,2025-02-08,East,Electronics,Monitor,3,180,0.0,540.0,390,150.0,60.0,Winter
+ORD0540,2025-05-14,West,Clothing,Sneakers,6,85,0.05,484.5,312,172.5,44.0,Spring
+ORD0541,2025-05-20,Central,Furniture,Office Chair,4,145,0.0,580.0,400,180.0,70.0,Spring
+ORD0542,2025-02-25,West,Furniture,Office Chair,3,145,0.1,391.5,300,91.5,34.0,Winter
+ORD0543,2025-06-10,West,Home & Kitchen,Blender,6,65,0.0,390.0,234,156.0,64.0,Summer
+ORD0544,2025-06-07,South,Home & Kitchen,Storage Box,2,18,0.0,36.0,16,20.0,80.0,Summer
+ORD0545,2025-12-18,South,Clothing,Jacket,4,78,0.05,296.4,168,128.4,10.0,Winter
+ORD0546,2025-02-16,North,Furniture,Bookshelf,7,120,0.15,714.0,602,112.0,40.0,Winter
+ORD0547,2025-12-13,West,Clothing,Jeans,3,48,0.0,144.0,81,63.0,65.0,Winter
+ORD0548,2025-08-20,South,Furniture,Office Chair,8,145,0.0,1160.0,800,360.0,51.0,Summer
+ORD0549,2025-03-04,South,Electronics,Laptop,4,620,0.0,2480.0,1920,560.0,48.0,Spring
+ORD0550,2025-07-25,North,Clothing,Jacket,5,78,0.0,390.0,210,180.0,44.0,Summer
+ORD0551,2025-02-03,East,Furniture,Table Lamp,3,38,0.0,114.0,66,48.0,56.0,Winter
+ORD0552,2025-03-04,Central,Electronics,Monitor,1,180,0.0,180.0,130,50.0,39.0,Spring
+ORD0553,2025-08-10,West,Home & Kitchen,Coffee Maker,1,88,0.1,79.2,54,25.2,76.0,Summer
+ORD0554,2025-03-30,East,Clothing,T-Shirt,3,22,0.05,62.7,30,32.7,59.0,Spring
+ORD0555,2025-08-17,East,Furniture,Office Chair,4,145,0.2,464.0,400,64.0,61.0,Summer
+ORD0556,2025-09-13,East,Home & Kitchen,Coffee Maker,1,88,0.0,88.0,54,34.0,47.0,Autumn
+ORD0557,2025-07-16,Central,Furniture,Table Lamp,4,38,0.2,121.6,88,33.6,46.0,Summer
+ORD0558,2025-05-08,Central,Electronics,Monitor,6,180,0.1,972.0,780,192.0,34.0,Spring
+ORD0559,2025-09-06,South,Clothing,Jeans,7,48,0.05,319.2,189,130.2,62.0,Autumn
+ORD0560,2025-01-14,North,Clothing,T-Shirt,1,22,0.05,20.9,10,10.9,47.0,Winter
+ORD0561,2025-08-30,South,Clothing,T-Shirt,3,22,0.0,66.0,30,36.0,60.0,Summer
+ORD0562,2025-12-03,Central,Furniture,Bookshelf,1,120,0.0,120.0,86,34.0,92.0,Winter
+ORD0563,2025-07-18,Central,Clothing,T-Shirt,3,22,0.0,66.0,30,36.0,70.0,Summer
+ORD0564,2025-06-12,Central,Clothing,Jacket,6,78,0.15,397.8,252,145.8,49.0,Summer
+ORD0565,2025-03-14,West,Furniture,Table Lamp,5,38,0.0,190.0,110,80.0,76.0,Spring
+ORD0566,2025-01-20,,Electronics,Laptop,4,620,0.15,2108.0,1920,188.0,34.0,Winter
+ORD0567,2025-01-11,South,Home & Kitchen,Blender,6,65,0.15,331.5,234,97.5,18.0,Winter
+ORD0568,2025-03-08,,Clothing,T-Shirt,6,22,0.0,132.0,60,72.0,36.0,Spring
+ORD0569,2025-03-17,East,Furniture,Office Chair,6,145,0.0,870.0,600,270.0,21.0,Spring
+ORD0570,2025-12-27,East,Home & Kitchen,Blender,6,65,0.05,370.5,234,136.5,48.0,Winter
+ORD0571,2025-03-11,,Furniture,Table Lamp,8,38,0.2,243.2,176,67.2,55.0,Spring
+ORD0572,2025-03-31,East,Clothing,T-Shirt,3,22,0.1,59.4,30,29.4,85.0,Spring
+ORD0573,2025-12-19,North,Clothing,T-Shirt,3,22,0.2,52.8,30,22.8,60.0,Winter
+ORD0574,2025-12-26,East,Home & Kitchen,Blender,3,65,0.15,165.75,117,48.75,51.0,Winter
+ORD0575,2025-11-10,East,Furniture,Office Chair,8,145,0.0,1160.0,800,360.0,69.0,Autumn
+ORD0576,2025-02-09,North,Furniture,Bookshelf,6,120,0.0,720.0,516,204.0,15.0,Winter
+ORD0577,2025-12-29,South,Clothing,Sneakers,1,85,0.05,80.75,52,28.75,59.0,Winter
+ORD0578,2025-05-08,North,Electronics,Smartphone,5,410,0.0,2050.0,1600,450.0,55.0,Spring
+ORD0579,2025-01-25,West,Home & Kitchen,Coffee Maker,7,88,0.0,616.0,378,238.0,28.0,Winter
+ORD0580,2025-09-10,West,Home & Kitchen,Storage Box,7,18,0.0,126.0,56,70.0,75.0,Autumn
+ORD0581,2025-10-23,North,Furniture,Desk,8,230,0.0,1840.0,1360,480.0,61.0,Autumn
+ORD0582,2025-05-31,North,Electronics,Smartphone,5,410,0.0,2050.0,1600,450.0,34.0,Spring
+ORD0583,2025-06-25,North,Furniture,Table Lamp,3,38,0.2,91.2,66,25.2,66.0,Summer
+ORD0584,2025-10-08,North,Electronics,Smartphone,8,410,0.2,2624.0,2560,64.0,82.0,Autumn
+ORD0585,2025-08-09,North,Furniture,Table Lamp,3,38,0.0,114.0,66,48.0,58.0,Summer
+ORD0586,2025-06-19,Central,Furniture,Desk,7,230,0.2,1288.0,1190,98.0,59.0,Summer
+ORD0587,2025-10-04,North,Clothing,Jeans,5,48,0.0,240.0,135,105.0,46.0,Autumn
+ORD0588,2025-01-26,East,Home & Kitchen,Coffee Maker,3,88,0.0,264.0,162,102.0,39.0,Winter
+ORD0589,2025-01-02,Central,Home & Kitchen,Blender,5,65,0.2,260.0,195,65.0,69.0,Winter
+ORD0590,2025-09-03,South,Furniture,Office Chair,1,145,0.0,145.0,100,45.0,39.0,Autumn
+ORD0591,2025-11-23,East,Clothing,Jacket,8,78,0.0,624.0,336,288.0,56.0,Autumn
+ORD0592,2025-07-23,Central,Home & Kitchen,Coffee Maker,5,88,0.0,440.0,270,170.0,46.0,Summer
+ORD0593,2025-07-18,South,Furniture,Bookshelf,7,120,0.05,798.0,602,196.0,63.0,Summer
+ORD0594,2025-08-17,East,Electronics,Smartphone,8,410,0.1,2952.0,2560,392.0,48.0,Summer
+ORD0595,2025-04-26,North,Clothing,Jacket,3,78,0.2,187.2,126,61.2,73.0,Spring
+ORD0596,2025-02-13,North,Clothing,Sneakers,4,85,0.15,289.0,208,81.0,45.0,Winter
+ORD0597,2025-07-18,East,Home & Kitchen,Coffee Maker,4,88,0.1,316.8,216,100.8,50.0,Summer
+ORD0598,2025-02-10,West,Home & Kitchen,Blender,3,65,0.0,195.0,117,78.0,37.0,Winter
+ORD0599,2025-03-30,North,Furniture,Desk,4,230,0.0,920.0,680,240.0,47.0,Spring
+ORD0600,2025-08-05,South,Electronics,Monitor,4,180,0.2,576.0,520,56.0,48.0,Summer
